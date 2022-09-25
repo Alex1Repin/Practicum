@@ -1,6 +1,13 @@
-﻿Console.WriteLine("Hello word!");
-
-Console.Write("Введите ваше имя: ");
-string unsername = Console.ReadLine();
-Console.Write("Привет, ");
-Console.WriteLine(unsername);
+﻿int a = 4;
+int b = 3;
+int c = 5;
+int d = 8;
+int e = 1;
+int f = 2;
+int max = a;
+if (b > max) max = b;
+if (c > max) max = c;
+if (d > max) max = d;
+if (e > max) max = e;
+if (f > max) max = f;
+Console.WriteLine(max);
